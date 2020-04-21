@@ -12,6 +12,7 @@
 * 將所有 css 打包成一個 bundle.css，減少 http 請求次數
 * js 使用 async 載入
 * index.js 可以刪掉一些用不到的函式和變數，style.css 應該也是但我懶得看了
+* 記得佈署的空間要啟用 gzip compression
 
 ## 介紹
 
