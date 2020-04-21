@@ -5,7 +5,7 @@
 * 移除 html 中不必要的註解
 * 移除 angular, vue, glide, sweetalert, material-component-web 的 js 引用
 * 移除 material-icons.css
-* bootstrap 可以去官網客製，刪減不必要的樣式
+* bootstrap 可以去官網客製，刪減不必要的樣式（感覺沒什麼用到 bootstrap, 好像可以直接拿掉 bootstrap.css|js）
 * 圖片壓縮
 * js 引用改到 `body` 標籤最下方
 * 將所有 js 打包成一個 bundle.js，減少 http 請求次數
