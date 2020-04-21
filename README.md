@@ -1,5 +1,18 @@
 # 新拖延運動黑客松
 
+## 可以使用的優化手法
+
+* 移除 html 中不必要的註解
+* 移除 angular, vue, glide, sweetalert, material-component-web 的 js 引用
+* 移除 material-icons.css
+* bootstrap 可以去官網客製，刪減不必要的樣式
+* 圖片壓縮
+* js 引用改到 `body` 標籤最下方
+* 將所有 js 打包成一個 bundle.js，減少 http 請求次數
+* 將所有 css 打包成一個 bundle.css，減少 http 請求次數
+* js 使用 async 載入
+* index.js 可以刪掉一些用不到的函式和變數，style.css 應該也是但我懶得看了
+
 ## 介紹
 
 網站連結：[GitHub Page](https://lidemy.github.io/lazy-hackathon/)
